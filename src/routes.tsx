@@ -1,14 +1,16 @@
+import 'reflect-metadata';
+
 import Layout from './Layout';
-import PageIntro from './pages/PageIntro';
-import PageOrder from './pages/PageOrder';
+
+import IntroPage from './pages/IntroPage';
+import OrderPage from './pages/OrderPage';
 
 const routes = [
   {
     element: <Layout />,
     children: [
-      { path: '/', element: <PageIntro /> },
-      { path: '/restaurants', element: <PageOrder /> },
-
+      { path: '/', element: <IntroPage /> },
+      { path: '/order', element: <OrderPage /> },
     ],
   },
 ];

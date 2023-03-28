@@ -6,10 +6,10 @@ const Test = styled.div`
   color: ${({ theme }) => theme.colors.background_0};
 `;
 
-function PageIntro() {
+function IntroPage() {
   return (
-    <Test>인트로페이지가 나와야하는데..</Test>
+    <Test>dasdddddd</Test>
   );
 }
 
-export default PageIntro;
+export default IntroPage;
