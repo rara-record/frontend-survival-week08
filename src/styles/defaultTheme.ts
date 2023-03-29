@@ -1,6 +1,6 @@
 const defaultTheme = {
   colors: {
-    background_0: '#FFF',
+    background_0: '# ',
     background_100: 'FFF1DC',
     background_200: 'F4F4F4',
     background_alpha: 'linear-gradient(to top left, #e05702, #f79151)',

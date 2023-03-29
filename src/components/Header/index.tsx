@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import fontSize from '../../styles/typography';
+import Switch from '../Switch';
 
 const StyledHeader = styled.header`
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 26px;
   
   width: 100%;
@@ -23,17 +24,25 @@ const StyledLogoImage = styled.img`
   cursor: pointer;
 `;
 
-const StyledTitle = styled.h2`
-  font-size:${fontSize.h2};
+const StyledFlex = styled.div`
+  display: flex;
+`;
+
+const StyledTitle = styled.h1`
+  font-size:${fontSize.h1};
+  font-weight: 700;
 `;
 
 function Header() {
   return (
     <StyledHeader>
-      <Link to="/">
-        <StyledLogoImage src="/images/logo.png" alt="logo" />
-      </Link>
-      <StyledTitle>메가테라 푸드코트 키오스트</StyledTitle>
+      <StyledFlex>
+        <Link to="/">
+          <StyledLogoImage src="/images/logo.png" alt="logo" />
+        </Link>
+        <StyledTitle>푸드코트 키오스트</StyledTitle>
+      </StyledFlex>
+      <Switch />
     </StyledHeader>
   );
 }
