@@ -13,8 +13,6 @@ const StyledHeader = styled.header`
   height: 180px;
   
   padding: 60px 36px;
-  
-
 `;
 
 const StyledLogoImage = styled.img`
@@ -26,6 +24,8 @@ const StyledLogoImage = styled.img`
 
 const StyledFlex = styled.div`
   display: flex;
+  align-items: center;
+  gap: 20px;
 `;
 
 const StyledTitle = styled.h1`

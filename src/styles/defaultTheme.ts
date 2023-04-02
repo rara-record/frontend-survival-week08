@@ -3,7 +3,7 @@ const defaultTheme = {
     background_0: '# ',
     background_100: 'FFF1DC',
     background_200: 'F4F4F4',
-    background_alpha: 'linear-gradient(to top left, #e05702, #f79151)',
+    background_alpha: 'linear-gradient(134.22deg, rgb(248, 158, 33) 0.7%, rgb(255, 100, 0) 65.66%)',
 
     primary: '#FF8400',
 
